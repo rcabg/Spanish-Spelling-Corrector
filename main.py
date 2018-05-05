@@ -8,7 +8,7 @@ Created on Tue May  1 16:49:41 2018
 import SpanishWordFreq as swf
 import WordChecker     as wc
 
-filePath = "5000_frecuencias.txt"
+filePath = "10000_frecuencias.txt"
 spanishWords = swf.SpanishWordsFreq(filePath)
 
 wordChecker = wc.WordChecker(spanishWords.words, spanishWords.totalFreq)
