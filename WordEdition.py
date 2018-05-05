@@ -35,7 +35,13 @@ class WordEdition:
                         'v':'cfgb',
                         'b':'vghn',
                         'n':'bhjm',
-                        'm':'njk'}
+                        'm':'njk',
+                        'á':'qzws',
+                        'é':'wsdr',
+                        'í':'ujko',
+                        'ó':'iklp',
+                        'ú':'yhji',
+                        'ü':'yhji'}
     
     def splits(self, word):
         return [(word[:i], word[i:]) for i in range(len(word) + 1)]
