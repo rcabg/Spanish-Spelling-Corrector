@@ -12,7 +12,7 @@ class WordChecker:
         self.dictionary    = dictionary
         self.wordEdition   = we.WordEdition()
         self.totalFreq     = totalFreq
-        self.maxCandidates = 5
+        self.maxCandidates = 10
         
     def knownWords(self, words):
         return list(word for word in words if word in self.dictionary)
