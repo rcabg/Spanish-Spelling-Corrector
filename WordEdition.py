@@ -42,7 +42,11 @@ class WordEdition:
                         'ó':'iklp',
                         'ú':'yhji',
                         'ü':'yhji'}
-    
+        
+        lowerQwerty = dict(self.qwerty)
+        for lowerKey in lowerQwerty.keys():
+            self.qwerty[lowerKey.upper()] = lowerQwerty[lowerKey].upper()
+
     def splits(self, word):
         return [(word[:i], word[i:]) for i in range(len(word) + 1)]
     
