@@ -22,4 +22,4 @@ while(1):
         print("Exit...")
         break
     
-    wordChecker.getCorrection(word)
+    wordChecker.getCorrection(word.lower())
