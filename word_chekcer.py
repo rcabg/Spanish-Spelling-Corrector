@@ -5,12 +5,12 @@ Created on Sat May  5 13:32:08 2018
 @author: rcabg
 """
 
-import WordEdition as we
+from word_edition import WordEdition
 
 class WordChecker:
     def __init__(self, dictionary, totalFreq):
         self.dictionary    = dictionary
-        self.wordEdition   = we.WordEdition()
+        self.wordEdition   = WordEdition()
         self.totalFreq     = totalFreq
         self.maxCandidates = 10
         
@@ -24,7 +24,6 @@ class WordChecker:
         return self.sortCandidates(set(candidates))
         
     def sortCandidates(self, candidates):
-        #numCandidates = len(candidates)
         totalFreq = 0
         wordList = list()
         freqList = list()

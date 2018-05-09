@@ -5,7 +5,7 @@ Created on Tue May  1 16:14:49 2018
 @author: rcabg
 """
 
-class SpanishWordsFreq:
+class SpanishWordFreq:
     def __init__(self, filePath):
         self.file = open(filePath, "r", encoding = 'utf-8')
         self.words = {}
