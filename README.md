@@ -1,7 +1,7 @@
 
 # SpanishSpellingCorrector
 
-A Spanish spelling corrector that tries to propouse a corrected form of a Spanish introduced word. Spanish most frequent words text file must be downloaded from Real Academia Española website: [link](http://corpus.rae.es/lfrecuencias.html) (*10000 most frequent words file is recommended*) 
+A Spanish spelling corrector for Python 3 that tries to propouse a corrected form of a Spanish introduced word. Spanish most frequent words text file must be downloaded from Real Academia Española website: [link](http://corpus.rae.es/lfrecuencias.html) (*10000 most frequent words file is recommended*) 
 
 This project has been created for the second deliverable of Natural Language Processing (PLN) from MULCIA, University of Seville (Procesamiento del Lenguaje Natural, Máster Universitario en Lógica, Computación e Inteligencia Artificial, Universidad de Sevilla, 2017/2018)  
 
@@ -9,9 +9,8 @@ This project has been created for the second deliverable of Natural Language Pro
 
  1. Clone the repository
  2. Download the 10000 most frequent words file from  [here](http://corpus.rae.es/lfrecuencias.html) and place it in the repository folder
- 3. Open main.py and modify variable "filePath" with the step 2 file name
- 4. Run main.py
- 5. Follow the terminal instructions
+ 3. Run main.py [arg1] where arg1 is the path to the words file downloaded beforehand.
+ 4. Follow the terminal instructions
 
 ## Examples
 ```
